@@ -38,6 +38,24 @@ GPT OSS 120B                        58.81%          11.02%            232       
 You can review a more detailed breakdown of these stats in `eval/BERT_results.json`. Statistics are calculated on a held out test dataset of 2224 samples. 
 
 
+# Categories: 
+
+```
+A - academic_help – Students getting help with homework, assignments, tests, or studying.
+B - personal_writing_or_communication – Draft, edit, or improve personal/professional emails, messages, social media posts, letters, or workplace communications.
+C - writing_and_editing – Create, edit, or improve nonfiction or instructional writing.
+D - creative_writing_and_role_play – Create poems, stories, fictional narratives, scripts, dialogues, or character-based roleplays.
+E - general_guidance_and_info – Provide step-by-step guidance, practical advice, or factual information.
+F - programming_and_data_analysis – Write or debug code or work with data/programming tools.
+G - creative_ideation – Generate new ideas, brainstorm concepts, or discover new topics.
+H - purchasable_products – Ask about products, services, or prices.
+I - greetings_and_chitchat – Small talk or casual chat.
+J - relationships_and_personal_reflection – Discuss emotions, relationships, or introspection.
+K - media_generation_or_analysis – Create, edit, analyze, or retrieve visual/audio/media content.
+L - other – if there is no indication of what the user wants or if there is an intent that is not listed above.
+M - other_obscene_or_illegal - if the user is making obscene or illegal requests.
+```
+
 # Message Cleaning: 
 
 Beginning with a ```records.json``` in the data folder. Example of structure: 
