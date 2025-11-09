@@ -9,7 +9,7 @@ venv/
 .env.*
 
 # Data and model files
-*.json
+# *.json
 models/
 *.pt
 *.pth
