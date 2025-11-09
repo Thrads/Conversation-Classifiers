@@ -1,17 +1,17 @@
 # ***Thrad.ai Conversation Classifiers GitHub***
 
-A repo with background and guidance for working with the open-source `Thrad_distilBERT_ConvoClassifier` and `Thrad_BERT_ConvoClassifier` models from HuggingFace [LINK HERE]! 
+A repo with background and guidance for working with the open-source `thrad-distilbert-conversation-classifier` and `thrad-bert-conversation-classifier` models from HuggingFace [[LINK HERE](https://huggingface.co/Thrad)]! 
 
 Our models are trained to classify the content of user LLM chats, with special attention payed to protecting businesses from interacting with chats deemed innapropriate. They outperform LLMs 100-200X their size by parameter count by at least 1/3, and can run inference in <50ms on everyday hardware. 
 
 To contribute to the project, create an issue in this repository, or contact Scott Biggs or Marco Visentin at Thrad.ai. We encourage anyone interested to use our models to help make ads-in-AI and the AI ecosystem at large safer for businesses and more private for users. 
 
-For more technical breakdown of the design, training, and evaluation process, refer to the technical blog pasted on our HuggingFace page here [LINK HERE]
+For more technical breakdown of the design, training, and evaluation process, refer to the technical blog pasted on our HuggingFace page here [[LINK HERE](https://huggingface.co/Thrad)].
 
 # Performance and Cost: 
 Costs calculated based on the rates on 8 Nov 2025. 
 ```bash 
-DistilBERT
+DistilBERT, N = 2224
 ================================================================================================
 Model                          Accuracy     Cross-Cat Err           Banned→Safe         Cost      
 ================================================================================================
@@ -25,7 +25,7 @@ GPT OSS 120B (Groq)             60.52%          10.79%                    231   
 You can review a more detailed breakdown of these stats in `eval/distilBERT_results.json`. Statistics are calculated on a held out test dataset of 2224 samples. 
 
 ```bash
-BERT
+BERT, N = 2224
 ====================================================================================================
 Model                              Accuracy     Cross-Cat Err     Banned→Safe        Cost      
 ====================================================================================================
