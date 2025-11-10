@@ -147,7 +147,7 @@ python eval/compare_models.py
 
 # Citation: 
 ```bash 
-@article{thrad-convo-classifier,
+@misc{thrad-convo-classifier,
     title={Thrad Conversation Classifiers}, 
     author={Scott Biggs, Marco Visentin},
     year={2025}
